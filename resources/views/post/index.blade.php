@@ -16,7 +16,6 @@
                             <tr>
                             <th scope="col">#</th>
                             <th scope="col">Name</th>
-                              <th scope="col">Name</th>
                             <th scope="col">Type</th>
                             <th scope="col">Qtd</th>
                             <th scope="col">Action</th>
@@ -27,7 +26,6 @@
                             @foreach($posts as $post)
                             <tr>
                             <th >{{ $no}}</th>
-                            <td>{{ $post->name }}</td>
                             <td>{{ $post->name }}</td>
                             <td>{{ $post->type }}</td>
                             <td>{{ $post->qtd }}</td>
