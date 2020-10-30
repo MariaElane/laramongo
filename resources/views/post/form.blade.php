@@ -23,8 +23,8 @@
                                     <input name="qtd"  type="numeric" class="form-control" placeholder="Enter qtd">
                                 </div>
                                 <div class="form-group">
-                                    <label for="qtd">cor</label>
-                                    <input name="cor"  type="numeric" class="form-control" placeholder="Enter color">
+                                    <label for="color">cor</label>
+                                    <input name="color"  type="numeric" class="form-control" placeholder="Enter color">
                                 </div>
                                 <button type="submit" class="btn btn-primary">Save</button>
                               
