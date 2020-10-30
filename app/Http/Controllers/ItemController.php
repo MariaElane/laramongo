@@ -25,7 +25,6 @@ class ItemController extends Controller
         $item->name = $request->name;
         $item->type = $request->type;
         $item->qtd = $request->qtd;
-        $item->color = $request->color;
 
         $item->save();
 
